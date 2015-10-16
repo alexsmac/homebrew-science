@@ -1,9 +1,10 @@
 require 'formula'
 
 class CeresSolver < Formula
+  desc "C++ library for modeling and solving large, complicated optimization problems."
   homepage 'http://ceres-solver.org/'
   url 'http://ceres-solver.org/ceres-solver-1.11.0.tar.gz'
-  sha1 '5e8683bfb410b1ba8b8204eeb0ec1fba009fb2d0'
+  sha256 '4d666cc33296b4c5cd77bad18ffc487b3223d4bbb7d1dfb342ed9a87dc9af844'
   head 'https://ceres-solver.googlesource.com/ceres-solver.git'
 
   bottle do
